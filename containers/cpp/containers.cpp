@@ -38,7 +38,7 @@ void cppArray() {
     array<int, 4> numbers;
     if (numbers.empty()) cout << "\tarray<int, 4> numbers;\t\tempty\n";
     else cout << "\tarray<int, 4> numbers;\t\tNOT empty\n";
-    cout << "\t> 'numbers':";
+    cout << "\t> 'numbers':\t";
     for (auto i = 0; i < numbers.size(); ++i) {
         cout << "\t" << numbers[i];
         // Values can be assigned to a C++ array using the member function 'at'.
@@ -62,8 +62,8 @@ void cppArray() {
     cout << "\n\t> front: " << numbers.front();
     cout << "\n\t> back: " << numbers.back();
 
-    numbers.front() = 50; numbers.back() = 100;
-    cout << "\n\tfront & back hard-coded to 50 & 100";
+    numbers.front() = 6; numbers.back() = 7;
+    cout << "\n\tfront & back hard-coded to 6 & 7";
     cout << "\n\t> front: " << numbers.front();
     cout << "\n\t> back: " << numbers.back();
 
@@ -72,6 +72,10 @@ void cppArray() {
     for (const auto n : numbers) {
         cout << "\t" << n;
     }
+
+    numbers.fill(67);
+    cout << "\n\t> 'numbers' filled with 67:";
+    for (const auto n : numbers) { cout << "\t" << n; }
 
     cout << endl;
 }
