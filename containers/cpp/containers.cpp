@@ -22,6 +22,7 @@ void cArray() {
 #include <array>
 using namespace std;
 
+// C++ array (sequential)
 void cppArray() {
     cout << "* C++ array\n";
 
@@ -80,8 +81,49 @@ void cppArray() {
     cout << endl;
 }
 
+// C++ vector (sequential)
+void cppVector() {
+    cout << "* C++ vector\n";
+
+    vector<int> a; // same as: vector<int> a{};
+    if (a.empty()) cout << "\tvector<int> a;\t\tempty\n";
+    else cout << "\tvector<int> a;\t\tNOT empty\n";
+    
+    // not safe for memory management
+    vector<int> b[]{}; // b->size() == 0
+    if (b->empty()) cout << "\tvector<int> b[]{};\tempty\n";
+    else cout << "\tvector<int> b[]{};\tNOT empty\n";
+
+    vector<int> c[0], d[0]{}, e = {}, f[] = {}, g[0] = {}, h = { 2, 4, 6, 8 };
+    if (c->empty()) cout << "\tvector<int> c[0];\tempty\n";
+    else cout << "\tvector<int> c[0];\tNOT empty\n";
+    if (d->empty()) cout << "\tvector<int> d[0]{};\tempty\n";
+    else cout << "\tvector<int> d[0]{};\tNOT empty\n";
+    if (e.empty()) cout << "\tvector<int> e = {};\tempty\n";
+    else cout << "\tvector<int> e = {};\tNOT empty\n";
+    if (f->empty()) cout << "\tvector<int> f[] = {};\tempty\n";
+    else cout << "\tvector<int> f[] = {};\tNOT empty\n";
+    if (g->empty()) cout << "\tvector<int> g[0] = {};\tempty\n";
+    else cout << "\tvector<int> g[0] = {};\tNOT empty\n";
+
+    vector<int> numbers[4];
+    if (numbers->empty()) cout << "\tvector<int> numbers[4];\tempty\n";
+    else cout << "\tvector<int> numbers[4];\tNOT empty\n";
+
+    cout << "\t> 'numbers':\t";
+    for (auto i = 0; i < (*numbers).size(); ++i) {
+        cout << "\t" << numbers->at(i);
+    }
+    *numbers = h;
+    cout << "\n\t> populated:\t";
+    for (auto& n : *numbers) { // Using the reference operator '&' allows value assignment.
+        cout << "\t" << n;
+        n *= n; // changing the values
+    }
+}
+
 int main() {
-    cArray();
-    printf("\n");
-    cppArray();
+    // cArray(); printf("\n");
+    // cppArray(); printf("\n");
+    cppVector();
 }
