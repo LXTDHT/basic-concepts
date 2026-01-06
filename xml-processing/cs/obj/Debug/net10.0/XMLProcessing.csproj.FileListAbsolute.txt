@@ -1,0 +1,15 @@
+G:\Projects\basic-concepts\xml-processing\cs\bin\Debug\net10.0\XMLProcessing.exe
+G:\Projects\basic-concepts\xml-processing\cs\bin\Debug\net10.0\XMLProcessing.deps.json
+G:\Projects\basic-concepts\xml-processing\cs\bin\Debug\net10.0\XMLProcessing.runtimeconfig.json
+G:\Projects\basic-concepts\xml-processing\cs\bin\Debug\net10.0\XMLProcessing.dll
+G:\Projects\basic-concepts\xml-processing\cs\bin\Debug\net10.0\XMLProcessing.pdb
+G:\Projects\basic-concepts\xml-processing\cs\obj\Debug\net10.0\XMLProcessing.GeneratedMSBuildEditorConfig.editorconfig
+G:\Projects\basic-concepts\xml-processing\cs\obj\Debug\net10.0\XMLProcessing.AssemblyInfoInputs.cache
+G:\Projects\basic-concepts\xml-processing\cs\obj\Debug\net10.0\XMLProcessing.AssemblyInfo.cs
+G:\Projects\basic-concepts\xml-processing\cs\obj\Debug\net10.0\XMLProcessing.csproj.CoreCompileInputs.cache
+G:\Projects\basic-concepts\xml-processing\cs\obj\Debug\net10.0\XMLProcessing.sourcelink.json
+G:\Projects\basic-concepts\xml-processing\cs\obj\Debug\net10.0\XMLProcessing.dll
+G:\Projects\basic-concepts\xml-processing\cs\obj\Debug\net10.0\refint\XMLProcessing.dll
+G:\Projects\basic-concepts\xml-processing\cs\obj\Debug\net10.0\XMLProcessing.pdb
+G:\Projects\basic-concepts\xml-processing\cs\obj\Debug\net10.0\XMLProcessing.genruntimeconfig.cache
+G:\Projects\basic-concepts\xml-processing\cs\obj\Debug\net10.0\ref\XMLProcessing.dll
