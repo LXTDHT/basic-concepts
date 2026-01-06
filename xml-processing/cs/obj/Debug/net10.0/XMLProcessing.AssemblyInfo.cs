@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XMLProcessing")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe336e2fc036b1bdebdaaa6752028bf84acb4b8c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+580e1e250df412f1708dd8c00b9430c9d5f42444")]
 [assembly: System.Reflection.AssemblyProductAttribute("XMLProcessing")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XMLProcessing")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

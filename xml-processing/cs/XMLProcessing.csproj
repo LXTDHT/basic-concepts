@@ -7,5 +7,6 @@
 
     <Optimize>true</Optimize>
     <BuildInParallel>true</BuildInParallel>
+    <DebugType>portable</DebugType>
   </PropertyGroup>
 </Project>
