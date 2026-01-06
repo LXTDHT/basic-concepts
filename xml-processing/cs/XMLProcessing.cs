@@ -1,4 +1,3 @@
-using System.Diagnostics.Tracing;
 using System.Xml.Linq;
 
 class XMLProcessing
@@ -23,7 +22,7 @@ class XMLProcessing
             isParent = e.HasElements;
             output = (e.HasAttributes ? e.Attributes().First().Value : "")
             + tab + e.Name + (isParent ? "" : ": " + e.Value);
-            System.Console.WriteLine(output);
+            Console.WriteLine(output);
             if (isParent)
             {
                 tab += "\t";
