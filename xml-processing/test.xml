@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<notes xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<notes>
     <note>
+        <author>Jacob</author>
         <type>plain text</type>
         <title>message to brother</title>
         <body>
@@ -8,9 +9,10 @@
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
         </body>
-        <xs:element name="timestamp" type="xs:dateTime"/><timestamp>2026-01-05T20:53:07</timestamp>
+        <timestamp>2026-01-05T20:53:07</timestamp>
     </note>
     <note>
+        <author>Robert</author>
         <type>list</type>
         <title>grocery</title>
         <list>
@@ -19,6 +21,6 @@
             <point>olive oil</point>
             <point>salmon</point>
         </list>
-        <xs:element name="timestamp" type="xs:dateTime"/><timestamp>2025-12-23T10:38:15</timestamp>
+        <timestamp>2025-12-23T10:38:15</timestamp>
     </note>
 </notes>
